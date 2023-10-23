@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 15px;
+}
+.top-right-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.publish-button {
+    background-color:green;
+    color: white;
+    border: green;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.preview-button{
+    background-color:white;
+    border-color: green;
+    color:black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
